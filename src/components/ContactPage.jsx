@@ -20,11 +20,13 @@ function ContactPage() {
 
 
         {/* the form section of div */}
-        <div className="box-border border-2 px-10 flex-col  flex shadow-slate-50 shadow-xl">
-        <input type="text" placeholder="Name" className="mt-10 p-3 rounded-lg text-black" />
-        <input type="email" placeholder="Email" name="" id="" className="mt-10 p-3 rounded-lg text-black" />
-        <textarea name="" placeholder="Message" id="" cols="30" rows="5" className="mt-10 p-3 rounded-lg mb-10 text-black"></textarea>
+        <div >
+        <form action="https://formspree.io/f/xzbqppyv" method="POST" className="box-border border-2 px-10 flex-col  flex shadow-slate-50 shadow-xl" >
+        <input type="text" placeholder="Name" name="Username" required autoComplete="off" className="mt-10 p-3 rounded-lg text-black" />
+        <input type="email" placeholder="Email" name="Email" id="" required autoComplete="off" className="mt-10 p-3 rounded-lg text-black" />
+        <textarea name="Message" placeholder="Message" id="" cols="30" required autoComplete="off" rows="5" className="mt-10 p-3 rounded-lg mb-10 text-black"></textarea>
          <button className="bg-cyan-900 mb-10 p-5 text-white hover:bg-cyan-600">Send Message</button>
+         </form>
         </div>
     </div>
     </div>
