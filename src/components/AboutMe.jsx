@@ -15,9 +15,9 @@ function AboutMe() {
 
             {/* section one for img and it shadow */}
             <div className="-z-10 sm:w-2/5 sm:ml-24 ">
-                <div className="sm:h-96 h-64 sm:rounded-3xl flex justify-center sm:bg-slate-700 sm:blur-sm sm:relative sm:w-96 -z-30">
-                    <div className="h-64 rounded-3xl bg-slate-700 sm:blur-sm sm:relative sm:w-96 w-64 absolute -z-30"></div>
-                <img src={Me} className="sm:h-96 h-64 sm:w-96  w-64 rounded-3xl rotate-6 -z-10  sm:blur-0" alt="" />
+                <div className="sm:h-96 h-64 sm:rounded-3xl flex justify-center sm:bg-slate-700 sm:relative sm:w-96 -z-30">
+                    <div className="h-64 rounded-3xl bg-slate-700  sm:relative sm:w-96 w-64 absolute -z-30"></div>
+                <img src={Me} className="sm:h-96 h-64 sm:w-96  w-64 rounded-3xl rotate-6 -z-10  " alt="" />
                 </div>
             </div>
 
