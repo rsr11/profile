@@ -7,7 +7,7 @@ import Whatsapp from "../components/photos/Whatsapp-logo.png"
 function Top() {
     return <div id="top">
         <h3 className="text-center mt-8">Hello, I'm</h3>
-        <h1 className="text-center sm:text-7xl text-5xl ">Rajeshwar Singh</h1>
+        <h1 className="text-center sm:text-7xl text-5xl ">RAJESHWAR SINGH</h1>
         <h3 className="text-center mt-5 sm:text-3xl">Fullstack-Developer</h3>  
         <span className="flex justify-center sm:pt-20 pt-16 "> 
         <img src={Me} alt="" className="  sm:pt-16  sm:px-12 sm:bg-gradient-to-t from-slate-200 to-blue-800 sm:h-96 sm:rounded-t-full " />  
